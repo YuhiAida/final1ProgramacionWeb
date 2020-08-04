@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="header">
+            <header>
+               <div>
+                <!--<a href="index.html">
+                    <img id="logoAlfa" src="img/logo.png" alt="Logo Alfa Romeo">
+                </a>
+                
+                <a href="index.html">
+                    <img id="logoSuzuki" src="img/suzuki.png" alt="Suzuki logo">
+                </a>-->
+                <a href="index.html"><h2 id="nombre">Shiken</h2></a>
+                </div>    
+            </header>
+            
+        <!--Navegacion-->
+            <nav>
+                <a href="index1.html">Autos</a>
+                <a href="index2.html">Motos</a>
+                <a href="index3.html">Contacto</a>
+            </nav>
+        </div>
+        
+        <!--Contenido principal-->
+        <div id="pre-footer">
+		<!--Mapa y informacion de contacto-->
+			<section class="map-info" >
+			<h2>Direccion</h2>
+			
+				<!--Mapa de google con la direccion-->
+				<div id="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4645.411815888188!2d-58.51486398144578!3d-34.58387127110189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7ae7bd7dcad%3A0x1cdad0257d1456e2!2sLlavallol+5545%2C+C1419ALG+CABA!5e0!3m2!1ses-419!2sar!4v1498401029129" width="400" height="300" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div>Bernardo.Biante@davinci.edu.ar</div>
+				<div>Llavallol 5545</div>
+				
+				<!--Enlaces a redes sociales-->
+				<div id="contacto-redes">
+				<a href="https://twitter.com/yuhiaida" target="_blank" class="twitter">
+	    				<img src="img/twitter_circle_color-256-3.png" alt="Twitter logo">
+	    			</a>
+
+	    			<a href="https://www.facebook.com/yuhiaida.lol/" target="_blank" class="facebook">
+	    				<img src="img/facebook-circle.png" alt="Facebook Logo">
+	    			</a>
+
+	    			<a href="https://www.youtube.com/YuhiAida" target="_blank" class="youtube">
+	    				<img src="img/youtube_circle_color-512-2.png" alt="Youtube logo">
+	    			</a>
+				</div>
+			</section>
+
+			<section class="contacto">
+				
+		     	 <!--Formulario de contacto-->
+			      <form method="post" action="send.php" name="contactform" class="contacto-form">
+			        <div class="contacto-form-column">
+			          <h2 class="contacto-title">Contactanos</h2>
+			          <label class="contacto-form-label">Mail</label><br>
+			          <input type="email" name="mail" id="mail" pattern="^[A-Za-z0-9](([_.-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([.-]?[a-zA-Z0-9]+)*).([A-Za-z]{2,})$" required="required" class="contacto-form-input"><br>
+			          <label class="contacto-form-label">Nombre Completo</label><br>
+			          <input type="text" name="nombre" id="name" required="required" class="contacto-form-input"><br>
+			          Soy de una organización
+			          <input type="checkbox" class="contacto-form-checkbox">
+			          Soy una Empresa
+			          <input type="checkbox" class="contacto-form-checkbox">
+			          Otro
+			          <input type="checkbox" class="contacto-form-checkbox">
+			        </div>
+			        
+			        <!--Cuadro de comentarios-->
+			        <div class="contacto-form-column">
+			          <label class="contacto-form-label">Mensaje:</label><br>
+			          <input type="text" name="comentario"  class="contacto-form-input"  id="comments"><br>
+			          <button type="submit" value="Enviar" id="submit" class="contacto-button">Enviar</button>
+			        </div>
+			      </form>
+                
+			        <!--Span para id de nav-->
+					<span id="contacto"></span>
+		    </section>
+	    </div>
+	    
+	    <!--Footer con logo y redes-->
+	    <footer>
+	    	<div class="footer-container">
+	    		<div class="footer-logo">
+	    		    <a href="index.html"><h3 id="nombre-footer">Shiken</h3></a>
+	    		</div>
+                <div class="footer-texto"><p>© 2017 Bernardo Biante Todos los derechos reservados</p></div>
+	    		<div class="contacto-redes">
+	    			<a href="https://twitter.com/yuhiaida" target="_blank" class="twitter">
+	    				<img src="img/twitter_circle_color-256-3.png" alt="Twitter logo">
+	    			</a>
+
+	    			<a href="https://www.facebook.com/yuhiaida.lol/" target="_blank" class="facebook">
+	    				<img src="img/facebook-circle.png" alt="Facebook logo">
+	    			</a>
+
+	    			<a href="https://www.youtube.com/yuhiaida" target="_blank" class="youtube">
+	    				<img src="img/youtube_circle_color-512-2.png" alt="Youtube logo">
+	    			</a>
+	    		</div>
+	    	</div>
+	    </footer>
+    </div>
+</body>
+</html>
